@@ -31,8 +31,7 @@ CREATE TABLE IF NOT EXISTS Visits(
     Client_id INTEGER NOT NULL,
     Service_id INTEGER NOT NULL,
     Worker_id INTEGER NOT NULL,
-    Date Date NOT NULL,
-    Time TIME NOT NULL,
+    DateTime DateTime NOT NULL,
     FOREIGN KEY(Client_id) REFERENCES Client(Client_Id),
     FOREIGN KEY(Service_id) REFERENCES Services(Service_id),
     FOREIGN KEY(Worker_id) REFERENCES  Workers(Workers_id)

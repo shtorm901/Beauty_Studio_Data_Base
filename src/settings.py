@@ -1,0 +1,1 @@
+Base = "beauty_studio.db"
